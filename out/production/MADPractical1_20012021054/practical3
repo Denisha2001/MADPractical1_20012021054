@@ -1,0 +1,11 @@
+fun main(){
+    fun Opration(op:Char,num1:Int,num2:Int) {
+        when(op) {
+            '+' -> println("sum of num1 and num2 is")
+            '%' -> println("division of num1 and num2 is")
+            '*' -> println("multiplication of num1 and num2 is")
+            '-' -> println("subtraction of num1 and num2 is")
+
+        }
+    }
+}
