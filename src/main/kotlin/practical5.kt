@@ -1,46 +1,22 @@
-fun main(){
-    fun Opration(op:String,num1:Int):Int{
-        when(op){
-            "1"->{
-                println("month is January")
-            }
-            "2"->{
-                println("month is February")
-            }
-            "3"->{
-                println("month is March")
-            }
-            "4"->{
-                println("month is April")
-            }
-            "5"->{
-                println("month is May")
-            }
-            "6"->{
-                println("month is June")
-            }
-            "7"->{
-                println("month is July")
-            }
-            "8"->{
-                println("month is August")
-            }
-            "9"->{
-                println("month is September")
-            }
-            "10"->{
-                println("month is october")
-            }
-            "11"->{
-                println("month is November")
-            }
-            "12"->{
-                println("month is December")
-            }
-        else ->{
-            println("Please Enter vaild number")
-        }
-        }
+fun main() {
+    println("Enter Month Number")
+    var mon: Int = readLine()!!.toInt()
+    when (mon) {
+        1 -> println("January")
+        2 -> println("February")
+        3 -> println("March")
+        4 -> println("April")
+        5 -> println("May")
+        6 -> println("June")
+        7 -> println("July")
+        8 -> println("August")
+        9 -> println("September")
+        10 -> println("October")
+        11 -> println("November")
+        12 -> println("December")
+        else -> {
 
-    return  -1}
+            println("Enter proper number")
+        }
+    }
 }

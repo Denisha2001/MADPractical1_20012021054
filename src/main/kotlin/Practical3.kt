@@ -1,0 +1,28 @@
+fun main(){
+    println("Enter your Enrollment Number :")
+    var EnNumber= readLine()
+    println("Enter your Name :")
+    var name= readLine()
+    println("Enter your Branch :")
+    var branch= readLine()
+    println("Enter your Batch :")
+    var batch= readLine()
+    println("Enter your College Name :")
+    var college= readLine()
+    println("Enter your University Name :")
+    var university= readLine()
+    println("Enter your Age :")
+    var age= readLine()
+
+    println("***************************")
+    println("Student's Data")
+    println("***************************")
+    println("Your Enrollment Number:$EnNumber")
+    println("Your Name is :$name")
+    println("Enter your Branch:$branch")
+    println("Enter your Batch:$batch")
+    println("Enter your College Name:$college")
+    println("Enter your University Name:$university")
+    println("Enter your Age:$age")
+
+}
