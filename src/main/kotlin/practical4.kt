@@ -1,7 +1,7 @@
-fun main(){
-    var num:Int=readLine()!!.toInt()
-    if(num%2==0)
-        println("Number is even")
+fun main() {
+    var num:Int = readLine()!!.toInt()
+    if(num % 2 ==0)
+        println("$num is Even!")
     else
-        println("Number is odd")
+        println("$num is Odd!")
 }
